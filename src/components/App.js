@@ -6,7 +6,7 @@ class App extends Component{
 		return(
 			<div>
 					
-				<button type="button" className="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+				<button type="button" className="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
 				  Launch demo modal
 				</button>
 
