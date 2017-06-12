@@ -1,0 +1,35 @@
+{
+  "name": "webpack2",
+  "version": "1.0.0",
+  "description": "AgendaDigitalFronted",
+  "main": "/build/bundle.js",
+  "scripts": {
+    "production": "webpack -p",
+    "build": "webpack --colors",
+    "serve": "webpack-dev-server --content-base build/ --colors --progress",
+    "start": "npm run build && npm run serve"
+  },
+  "author": "yoPuesQuienMas",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.1",
+    "file-loader": "^0.11.2",
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.98.2",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8"
+  }
+}
